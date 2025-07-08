@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.idea/.idea.Message.Service/.idea/encodings.xml
+/.idea/.idea.Message.Service/.idea/indexLayout.xml
+/Application/appsettings.Development.json
