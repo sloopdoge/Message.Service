@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{698EAAA7-907C-4265-9831-161DD24C6BFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message.Application", "Message.Application\Message.Application.csproj", "{698EAAA7-907C-4265-9831-161DD24C6BFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{8C460AB1-FDA4-4253-83D9-B8AD24CC0DCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message.Domain", "Message.Domain\Message.Domain.csproj", "{8C460AB1-FDA4-4253-83D9-B8AD24CC0DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{7BB505E8-9216-4012-B1C5-47BFB6745BAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message.Infrastructure", "Message.Infrastructure\Message.Infrastructure.csproj", "{7BB505E8-9216-4012-B1C5-47BFB6745BAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{E4D36BE9-D50F-46CA-B141-DBF2A23CAA74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message.Repository", "Message.Repository\Message.Repository.csproj", "{E4D36BE9-D50F-46CA-B141-DBF2A23CAA74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
