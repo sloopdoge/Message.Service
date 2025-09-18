@@ -2,7 +2,6 @@
 
 public enum MessageType
 {
-    Email,
-    Sms,
-    Telegram
+    Instant,
+    Delayed,
 }

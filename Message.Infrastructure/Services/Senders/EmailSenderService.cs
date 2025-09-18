@@ -5,11 +5,11 @@ using Message.Infrastructure.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Message.Infrastructure.Services;
+namespace Message.Infrastructure.Services.Senders;
 
 public class EmailSenderService : ISenderService
 {
-    public MessageType Type => MessageType.Email;
+    public SenderType Type => SenderType.Email;
 
     private readonly ILogger<EmailSenderService> _logger;
     private readonly SmtpClient _smtpClient;

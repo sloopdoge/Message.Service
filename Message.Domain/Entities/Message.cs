@@ -10,11 +10,15 @@ public class Message
     public string? Subject { get; set; }
     public string Body { get; set; }
 
+    public SenderType SenderType { get; set; }
     public MessageType Type { get; set; }
     public MessageStatus Status { get; set; } = MessageStatus.Pending;
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime? ProcessedAt { get; set; } 
+    public DateTime? ScheduledAt { get; set; }
     public DateTime? SentAt { get; set; }
+    
     public int RetryCount { get; set; }
     public string? ErrorMessage { get; set; }
 
@@ -27,7 +31,10 @@ public class Message
         Recipient = model.Recipient;
         Subject = model.Subject;
         Body = model.Body;
-        Type = model.Type;
+        SenderType = model.SenderType;
+        
+        Type = model.MessageType;
+        ScheduledAt = model.SendAt;
 
         Status = MessageStatus.Pending;
         

@@ -3,6 +3,8 @@
 public enum MessageStatus
 {
     Pending,
+    Processing,
+    Delayed,
     Sent,
-    Failed
+    Failed,
 }
